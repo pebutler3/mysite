@@ -1,0 +1,4 @@
+RewriteEngine on
+# Options +FollowSymlinks
+RewriteCond %{HTTP_REFERER} semalt\.com [NC]
+RewriteRule .* - [F]
