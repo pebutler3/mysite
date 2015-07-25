@@ -1,0 +1,15 @@
+$white:   #ffffff;
+$black:   #000000;
+
+$plum:    #6D213C;
+$magenta: #2C0915;
+$pink:    #FFDED3;
+$green:   #041B15;
+$grey:    #393D3F;
+
+body {
+  font-family: $helvetica;
+  letter-spacing: 1.5px;
+}
+
+@import "home";
