@@ -101,6 +101,9 @@ main {
     h2 {
       padding-left: 1em;
     }
+    @include media(min-width 400px max-width 850px) {
+      @include span-columns(4);
+    }
   }
 }
 article {
