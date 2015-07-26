@@ -1,0 +1,13 @@
+// Mobile
+@include media(max-width 450px) {
+ img {
+  margin-left: 5em;
+ }
+ div {
+   margin-left: 3em;
+ }
+ span {
+   padding-top: 4em !important;
+ }
+}
+
