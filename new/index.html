@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>P.E. Butler III | Front-End Developer in Denver, Colorado</title>
+ <meta name="description" content="Front-End Developer" />
+ <link rel="shortcut icon" href="assets/img/favicon.ico">
+ <link rel="stylesheet" href="../css/app.css" />
+</head>
+<body>
+  <main>
+    <aside>
+      <section class="avatar"></section>
+      <h2>P.E. Butler III</h2>
+      <h3>Front-End Developer</h3>
+      <button id="menu-button">+ Info</button>
+      <nav>
+       <ul class="hidden">
+         <li><a href="mailto:p.e.butler3@gmail.com" email>email me</a></li>
+         <li><a href="https://github.com/pebutler3" github>github</a></li>
+         <li><a href="https://twitter.com/pebutler3" twitter>twitter</a></li>
+         <li><a href="http://codepen.io/PEB3/" codepen>codepen</a></li>
+         <li><a href="https://www.linkedin.com/in/pebutler3" linkedin>linkedin</a></li>
+       </ul>
+      </nav>
+    </aside>
+    <section class="recent-projects">
+      <h2><a href="/recent">Recent Projects</a></h2>
+      <section class="recents">
+       <img src="http://placehold.it/200x200" alt="" thumb>
+       <img src="http://placehold.it/200x200" alt="" thumb>
+       <img src="http://placehold.it/200x200" alt="" thumb>
+       <img src="http://placehold.it/200x200" alt="" thumb>
+      </section>
+    </section>
+    <img collage src="../assets/img/collage.jpg" alt="">
+    <section class="in-development">
+      <h2><a href="#">In Development</a></h2>
+    </section>
+  </main>
+<footer>
+</footer>
+<script>
+// First we detect the click event
+var ul = document.querySelector('ul');
+document.getElementById('menu-button').addEventListener('click', function () {
+  // Using an if statement to check the class
+  if (ul.classList.contains('hidden')) {
+    // The box that we clicked has a class of bad so let's remove it and add the good class
+   ul.classList.remove('hidden');
+   // this.classList.add('good');
+  } else {
+    ul.classList.add('hidden');
+  }
+});
+</script>
+</body>
+</html>
